@@ -5,7 +5,12 @@ export default {
     fields: [
         {
             name: 'name',
-            title: 'Title',
+            title: 'Page Name',
+            type:  'string',
+        },
+        {
+            name: 'pagetitle',
+            title: 'Page Title',
             type:  'string',
         },
         {
