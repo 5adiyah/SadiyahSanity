@@ -38,6 +38,11 @@ export default {
             }
         },
         {
+            name: 'teaser',
+            title: 'Post Teaser',
+            type:  'text',
+        },
+        {
             name: 'content',
             title: 'Body',
             type: 'array',
