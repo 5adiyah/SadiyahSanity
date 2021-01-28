@@ -25,8 +25,7 @@ export default {
         {
             name: 'content',
             title: 'Body',
-            type: 'array',
-            of: [{type: 'block'}],
+            type: 'text',
         }
     ]
 }
