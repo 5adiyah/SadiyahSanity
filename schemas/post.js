@@ -46,7 +46,20 @@ export default {
             name: 'content',
             title: 'Body',
             type: 'array',
-            of: [{type: 'block'}],
+            of: [
+                {
+                    type: 'block',
+                    styles: [
+                        {title: 'Quote', value: 'blockquote'},
+                    ]
+                },
+                {
+                    type: 'image'
+                },
+                {
+                    type: 'code'
+                }
+            ],
         }
     ]
 }
